@@ -1,0 +1,39 @@
+{
+  "contenido": [
+    {
+      "tag": "saludo",
+      "patrones": ["hola", "buenos días", "buenas tardes"],
+      "respuestas": ["¡Hola! ¿En qué puedo ayudarte?", "Hola, ¿en qué puedo asistirte hoy?"]
+    },
+    {
+      "tag": "despedida",
+      "patrones": ["adiós", "hasta luego", "nos vemos"],
+      "respuestas": ["¡Hasta luego!", "Que tengas un buen día. ¡Adiós!"]
+    },
+    {
+      "tag": "citas_medicas",
+      "patrones": ["citas médicas", "solicitar cita","agendar cita","crear cita"],
+      "respuestas": ["Para crear su cita debe:"]
+    },
+    {
+        "tag": "ver_citas",
+        "patrones": ["ver cita", "observar cita","cita agendada","saber cita","mirar cita","cual es mi cita"],
+        "respuestas": ["Para visualizar su cita debe:"]
+      },
+    {
+      "tag": "cancelar_cita",
+      "patrones": ["cancelar cita", "modificar cita", "cambio de horario"],
+      "respuestas": ["Si deseas cancelar o modificar una cita existente, te recomendamos comunicarte directamente con nuestro personal en el número XXX-XXXX. Ellos estarán encantados de ayudarte con tu solicitud.", "Para cancelar o modificar una cita, te sugerimos que nos contactes directamente llamando al número XXX-XXXX. Nuestro equipo te asistirá en el proceso."]
+    },
+    {
+      "tag": "documentos_requeridos",
+      "patrones": ["documentos necesarios", "qué llevar", "papeles requeridos"],
+      "respuestas": ["Al momento de tu cita médica, es importante que traigas contigo tu documento de identidad (DNI o pasaporte) y cualquier informe o estudio médico relevante que tengas. Esto nos ayudará a brindarte el mejor cuidado posible.", "Para tu cita médica, asegúrate de traer tu documento de identidad (DNI o pasaporte) y cualquier informe médico que consideres importante. Estos documentos nos permitirán tener un mejor entendimiento de tu historial de salud."]
+    },
+    {
+      "tag": "otras_preguntas",
+      "patrones": ["horarios de visita", "formas de pago", "especialidades médicas"],
+      "respuestas": ["Nuestros horarios de visita son de lunes a viernes de 9:00 a.m. a 5:00 p.m. Para conocer nuestras formas de pago aceptadas, te recomendamos contactarnos directamente al número XXX-XXXX. Tenemos una variedad de especialidades médicas disponibles, desde pediatría hasta cardiología. Si tienes alguna pregunta específica sobre nuestras especialidades, no dudes en preguntarnos."]
+    }
+  ]
+}
